@@ -1,0 +1,22 @@
+# Rooms and Capacities
+set ROOMS := 1 2 3;
+param capacity :=
+    1 50
+    2 100
+    3 150;
+
+# Courses, Enrollments, and Lengths
+set COURSES := A B C D E;
+param enrollment :=
+    A 40
+    B 50
+    C 90
+    D 130
+    E 140;
+
+param length :=
+    A 3
+    B 2
+    C 2
+    D 3
+    E 2;

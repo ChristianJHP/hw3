@@ -1,0 +1,16 @@
+model airplane_assignment.mod;
+     data airplane_assignment.dat;
+     option solver cplex;
+     solve;
+     display Total_Profit > output_profit.txt;
+     display x > output_x.txt;
+     display y > output_y.txt;
+     printf "Table 1: Airplane Assignment Graph Representation\n" > graph_output.txt;
+     printf "| Airplane | Flight | Dep Airport | Arr Airport | Dep Time | Arr Time |\n" >> graph_output.txt;
+     printf "|----------|--------|-------------|-------------|----------|----------|\n" >> graph_output.txt;
+     for {a in AIRPLANES, f in FLIGHTS: x[a,f] == 1}
+         printf "| %s | %s | %s | %s | %.2f | %.2f |\n", a, f, dep_airport[f], arr_airport[f], dep_time[f]*24, arr_time[f]*24 >> graph_output.txt;
+     printf "\nLeased Airplanes:\n" >> graph_output.txt;
+     for {a in AIRPLANES: y[a] == 1}
+         printf "%s\n", a >> graph_output.txt;
+     printf "\nTotal Profit: %f\n", Total_Profit >> graph_output.txt;

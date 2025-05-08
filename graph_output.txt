@@ -1,0 +1,41 @@
+Table 1: Airplane Assignment Graph Representation
+| Airplane | Flight | Dep Airport | Arr Airport | Dep Time | Arr Time |
+|----------|--------|-------------|-------------|----------|----------|
+| Airplane9 | 1843 | SDG | BER | 7.55 | 9.05 |
+| Airplane9 | 3072 | SDG | SCR | 9.95 | 11.45 |
+| Airplane9 | 3250 | SDG | UCL | 10.05 | 10.55 |
+| Airplane9 | 3386 | SDG | SCR | 10.50 | 12.00 |
+| Airplane9 | 4461 | SDG | UCL | 12.47 | 12.97 |
+| Airplane9 | 5531 | UCL | BER | 14.12 | 15.12 |
+| Airplane9 | 5715 | SCR | BER | 14.35 | 14.85 |
+| Airplane9 | 6522 | SCR | BER | 15.00 | 15.50 |
+| Airplane9 | 8838 | UCL | BER | 18.00 | 19.00 |
+| Airplane9 | 9785 | SCR | BER | 18.35 | 18.85 |
+| Airplane11 | 1432 | BER | UCL | 7.20 | 8.20 |
+| Airplane11 | 2135 | BER | UCL | 8.08 | 9.08 |
+| Airplane11 | 2600 | BER | DAV | 9.00 | 9.50 |
+| Airplane11 | 3571 | BER | DAV | 10.78 | 11.28 |
+| Airplane11 | 4858 | DAV | SCR | 13.00 | 13.50 |
+| Airplane11 | 5059 | BER | SCR | 13.00 | 13.50 |
+| Airplane11 | 5172 | DAV | SDG | 13.17 | 15.17 |
+| Airplane11 | 6005 | BER | UCL | 14.50 | 15.50 |
+| Airplane11 | 6759 | DAV | UCL | 15.33 | 16.83 |
+| Airplane11 | 7023 | SDG | SCR | 16.28 | 17.78 |
+| Airplane11 | 7398 | BER | SCR | 16.32 | 16.82 |
+| Airplane11 | 7961 | BER | UCL | 16.65 | 17.65 |
+| Airplane11 | 8456 | DAV | UCL | 17.38 | 18.88 |
+| Airplane11 | 9456 | SDG | SCR | 18.15 | 19.65 |
+
+Leased Airplanes:
+Airplane1
+Airplane2
+Airplane3
+Airplane4
+Airplane5
+Airplane6
+Airplane7
+Airplane8
+Airplane10
+Airplane12
+
+Total Profit: 146883.000000

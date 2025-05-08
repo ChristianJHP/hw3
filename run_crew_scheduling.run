@@ -1,0 +1,6 @@
+# Run file for Crew Scheduling Task 2
+reset;
+model crew_scheduling_task2.mod;
+data crew_scheduling_task2.dat;
+solve;
+display Total_Cost, Assign_Captain, Assign_FO;

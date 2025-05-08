@@ -1,0 +1,15 @@
+y [*] :=
+ Airplane1  1
+Airplane10  1
+Airplane11  0
+Airplane12  1
+ Airplane2  1
+ Airplane3  1
+ Airplane4  1
+ Airplane5  1
+ Airplane6  1
+ Airplane7  1
+ Airplane8  1
+ Airplane9  0
+;
+

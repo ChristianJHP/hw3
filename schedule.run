@@ -1,0 +1,5 @@
+model schedule.mod;
+data schedule.dat;
+option solver cplex;  # Use CPLEX solver (or any available ILP solver)
+solve;
+display x;
